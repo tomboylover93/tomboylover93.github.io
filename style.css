@@ -27,6 +27,11 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s; /* smooth transition */
+    background: url('https://raw.githubusercontent.com/tomboylover93/tomboylover93.github.io/refs/heads/main/images/cat_lofi_cafe.jpg') center center/cover no-repeat;
+    background-attachment: fixed; /* keeps the background fixed when you scroll */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
 body, html {
