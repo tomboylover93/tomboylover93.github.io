@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/tomorrow');
+@import url('https://fonts.cdnfonts.com/css/google-sans');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Tomorrow', sans-serif;
+    font-family: 'Product Sans', 'Helvetica', sans-serif;
     background-color: #f3f3f3;
     color: #333;
     line-height: 1.6;
