@@ -89,3 +89,16 @@ a:hover {
     color: #6b39bd; /* changes color on hover */
     text-decoration: underline;
 }
+
+iframe {
+    display: block;
+    margin: 1em auto; /* centers it */
+    border: none; /* removes border */
+}
+
+.responsive-iframe {
+    width: 100%;
+    height: 300px; /* adjust this as needed */
+    max-width: 600px; /* optional max width for big screens */
+    border: none;
+}
