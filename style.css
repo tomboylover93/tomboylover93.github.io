@@ -6,6 +6,19 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #333;
+    --profile-size: 300px;
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --footer-color: #f3f3f3;
+}
+
+/* now u can use these variables like this: */
+body {
+    color: var(--primary-color);
+}
+
 body {
     font-family: 'Product Sans', 'Helvetica', sans-serif;
     background-color: #f3f3f3;
@@ -54,23 +67,14 @@ footer {
     color: var(--text-color);
 }
 
-:root {
-    --primary-color: #333;
-    --profile-size: 300px;
-    --bg-color: #ffffff;
-    --text-color: #333333;
-    --footer-color: #f3f3f3;
-}
-
-/* now u can use these variables like this: */
-body {
-    color: var(--primary-color);
-}
-
 .dark-mode {
     --bg-color: #121212;
     --text-color: #ffffff;
     --footer-color: #333333;
+}
+
+h1, h2, h3, p, footer {
+    color: var(--text-color);
 }
 
 .profile-pic {
