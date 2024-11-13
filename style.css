@@ -81,11 +81,11 @@ li {
 }
 
 a {
-    color: #333;
+    color: #9686b0;
     text-decoration: none;
 }
 
 a:hover {
-    color: #007bff; /* changes color on hover */
+    color: #6b39bd; /* changes color on hover */
     text-decoration: underline;
 }
