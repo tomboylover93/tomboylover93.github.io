@@ -49,7 +49,7 @@ footer {
 
 :root {
     --primary-color: #333;
-    --profile-size: 450px;
+    --profile-size: 300px;
 }
 
 /* now u can use these variables like this: */
