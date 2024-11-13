@@ -98,7 +98,7 @@ iframe {
 
 .responsive-iframe {
     width: 100%;
-    height: 480px; /* adjust this as needed */
-    max-width: 640px; /* optional max width for big screens */
+    height: 720px; /* adjust this as needed */
+    max-width: 1280px; /* optional max width for big screens */
     border: none;
 }
