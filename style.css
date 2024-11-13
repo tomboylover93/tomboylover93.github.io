@@ -49,7 +49,7 @@ footer {
 
 :root {
     --primary-color: #333;
-    --profile-size: 150px;
+    --profile-size: 450px;
 }
 
 /* now u can use these variables like this: */
@@ -60,7 +60,7 @@ body {
 .profile-pic {
     width: var(--profile-size);
     height: var(--profile-size);
-    border-radius: 50%;
+    border-radius: 0%;
     object-fit: cover;
 }
 
