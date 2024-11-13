@@ -29,6 +29,31 @@ body {
     transition: background-color 0.3s, color 0.3s; /* smooth transition */
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.rainy-window {
+    position: relative;
+    height: 100vh;
+    background: url('your-background.jpg') center center/cover no-repeat; /* your main background */
+}
+
+.rainy-window::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('rain-overlay.gif') center center/cover; /* rain gif */
+    opacity: 0.5; /* adjust this for how intense u want the rain */
+    pointer-events: none; /* lets you click through the overlay */
+}
+
 header {
     background: #333;
     color: #fff;
