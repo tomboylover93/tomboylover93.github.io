@@ -65,10 +65,11 @@ body {
 }
 
 .footer-pic {
-    width: 400px; /* adjust the size as needed */
-    height: auto; /* keeps the aspect ratio */
+    width: 10%; /* adjust this to fit the look you want */
+    max-width: 800px; /* limits how big it can get on larger screens */
+    height: auto; /* keeps the aspect ratio so it doesn’t stretch */
     display: block;
-    margin: 0.5em auto; /* centers it in the footer */
+    margin: 0.5em auto; /* centers it */
 }
 
 ul {
