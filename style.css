@@ -65,7 +65,7 @@ body {
 }
 
 .footer-pic {
-    width: 600px; /* adjust the size as needed */
+    width: 400px; /* adjust the size as needed */
     height: auto; /* keeps the aspect ratio */
     display: block;
     margin: 0.5em auto; /* centers it in the footer */
