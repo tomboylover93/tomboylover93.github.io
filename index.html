@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>tomboylover93</h1>
-        <p></p>
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
     </header>
 
     <nav>
@@ -63,5 +63,10 @@
     <p>© 2024 Hood Irony Inc.</p>
     <img src="images/soundoriented.gif" alt="footer gif" class="footer-pic">
     </footer>
+    <script>
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
+    </script>
 </body>
 </html>
