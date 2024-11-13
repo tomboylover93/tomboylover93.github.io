@@ -123,6 +123,14 @@ h2, h3, p, footer {
     margin: 0.5em auto; /* centers it */
 }
 
+.videl {
+    width: 100%; /* adjust this to fit the look you want */
+    max-width: 800px; /* limits how big it can get on larger screens */
+    height: auto; /* keeps the aspect ratio so it doesn’t stretch */
+    display: block;
+    margin: 0.5em auto; /* centers it */
+}
+
 ul {
     list-style-type: none; /* removes the bullets */
     padding: 0;
