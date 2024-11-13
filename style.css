@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #555;
+    padding: 0.5em 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #333;
+    color: #fff;
+    margin-top: 1em;
+}
+
+:root {
+    --primary-color: #333;
+    --profile-size: 150px;
+}
+
+/* now u can use these variables like this: */
+body {
+    color: var(--primary-color);
+}
+
+.profile-pic {
+    width: var(--profile-size);
+    height: var(--profile-size);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.footer-pic {
+    width: 50px; /* adjust the size as needed */
+    height: auto; /* keeps the aspect ratio */
+    display: block;
+    margin: 0.5em auto; /* centers it in the footer */
+}
