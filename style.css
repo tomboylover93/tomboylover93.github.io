@@ -11,6 +11,9 @@ body {
     background-color: #f3f3f3;
     color: #333;
     line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s; /* smooth transition */
 }
 
 header {
@@ -47,16 +50,27 @@ footer {
     background: #333;
     color: #fff;
     margin-top: 1em;
+    background-color: var(--footer-color);
+    color: var(--text-color);
 }
 
 :root {
     --primary-color: #333;
     --profile-size: 300px;
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --footer-color: #f3f3f3;
 }
 
 /* now u can use these variables like this: */
 body {
     color: var(--primary-color);
+}
+
+.dark-mode {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --footer-color: #333333;
 }
 
 .profile-pic {
