@@ -70,3 +70,22 @@ body {
     display: block;
     margin: 0.5em auto; /* centers it in the footer */
 }
+
+ul {
+    list-style-type: none; /* removes the bullets */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px; /* space between each link */
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #007bff; /* changes color on hover */
+    text-decoration: underline;
+}
