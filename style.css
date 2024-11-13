@@ -29,6 +29,37 @@ body {
     transition: background-color 0.3s, color 0.3s; /* smooth transition */
 }
 
+/* Header styling */
+.header {
+    background-color: #6200ea; /* primary color - deep purple */
+    color: white;
+    padding: 1em 2em;
+    border-radius: 0 0 20px 20px; /* rounded bottom edges */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+/* Navbar link styling */
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1em;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s ease;
+}
+
+.header nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* slight highlight on hover */
+}
 header {
     background: #333;
     color: #fff;
