@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/helveticaneue-2');
+@import url('https://fonts.cdnfonts.com/css/tomorrow');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'HelveticaNeue', sans-serif;
+    font-family: 'Tomorrow', sans-serif;
     background-color: #f3f3f3;
     color: #333;
     line-height: 1.6;
