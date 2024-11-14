@@ -1,7 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/google-sans');
-
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2');
-
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
 
 * {
@@ -19,32 +17,24 @@
     --footer-color: #f3f3f3;
 }
 
-/* now u can use these variables like this: */
-body {
-    color: var(--primary-color);
-}
-
+/* Body styling */
 body {
     font-family: 'Product Sans', sans-serif;
-    color: #333;
+    color: var(--primary-color);
     line-height: 1.6;
     background: url('https://raw.githubusercontent.com/tomboylover93/tomboylover93.github.io/refs/heads/main/images/bg.png') center center/cover no-repeat;
     background-color: var(--bg-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
-    /* smooth transition */
 }
 
 /* Header styling */
 .header {
     background-color: #7F77A7;
-    /* primary color - deep purple */
     color: white;
     padding: 1em 2em;
     border-radius: 0 0 0px 0px;
-    /* rounded bottom edges */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    /* subtle shadow for depth */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +45,7 @@ body {
     font-size: 1.5em;
 }
 
-/* Navbar link styling */
+/* Navbar styling */
 .header nav a {
     color: white;
     text-decoration: none;
@@ -68,16 +58,9 @@ body {
 
 .header nav a:hover {
     background-color: rgba(255, 255, 255, 0.1);
-    /* slight highlight on hover */
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-}
-
+/* Navbar styling */
 nav ul {
     display: flex;
     justify-content: center;
@@ -95,10 +78,12 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Section styling */
 section {
     padding: 2em;
 }
 
+/* Footer styling */
 footer {
     text-align: center;
     padding: 1em;
@@ -109,6 +94,7 @@ footer {
     color: var(--text-color);
 }
 
+/* Dark mode styling */
 .dark-mode {
     --bg-color: #121212;
     --text-color: #ffffff;
@@ -119,6 +105,7 @@ h2, h3, p, footer {
     color: var(--text-color);
 }
 
+/* Profile pic styling */
 .profile-pic {
     width: var(--profile-size);
     height: var(--profile-size);
@@ -126,39 +113,32 @@ h2, h3, p, footer {
     object-fit: cover;
 }
 
+/* Footer image styling */
 .footer-pic {
     width: 100%;
-    /* adjust this to fit the look you want */
     max-width: 800px;
-    /* limits how big it can get on larger screens */
     height: auto;
-    /* keeps the aspect ratio so it doesn’t stretch */
     display: block;
     margin: 0.5em auto;
-    /* centers it */
 }
 
+/* Videl image styling */
 .videl {
     width: 100%;
-    /* adjust this to fit the look you want */
     max-width: 800px;
-    /* limits how big it can get on larger screens */
     height: auto;
-    /* keeps the aspect ratio so it doesn’t stretch */
     display: block;
     margin: 0.5em auto;
-    /* centers it */
 }
 
+/* List styling */
 ul {
     list-style-type: none;
-    /* removes the bullets */
     padding: 0;
 }
 
 li {
     margin-bottom: 5px;
-    /* space between each link */
 }
 
 a {
@@ -168,33 +148,28 @@ a {
 
 a:hover {
     color: #6b39bd;
-    /* changes color on hover */
     text-decoration: underline;
 }
 
+/* iframe styling */
 iframe {
     display: block;
     margin: 1em auto;
-    /* centers it */
     border: none;
-    /* removes border */
 }
 
 .responsive-iframe {
     width: 100%;
     height: 720px;
-    /* adjust this as needed */
     max-width: 1280px;
-    /* optional max width for big screens */
     border: none;
 }
 
+/* Card styling */
 .card {
     background-color: var(--bg-color);
-    /* white card background */
     border-radius: 12px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    /* subtle shadow */
     padding: 1.5em;
     margin: 1em auto;
     width: 90%;
@@ -204,33 +179,31 @@ iframe {
 
 .card:hover {
     transform: translateY(-5px);
-    /* makes the card "lift" on hover */
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* button styling */
+/* Toggle button styling */
 .toggle-button {
-    background-color: #7F77A7; /* Material You inspired purple */
+    background-color: #7F77A7;
     color: white;
     padding: 0.6em 1.2em;
     border: none;
-    border-radius: 20px; /* rounded corners */
+    border-radius: 20px;
     font-family: 'Product Sans', sans-serif;
     font-size: 1em;
     font-weight: 500;
     cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* soft shadow */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* hover effect */
 .toggle-button:hover {
-    background-color: #625d7e; /* slightly darker shade on hover */
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* deeper shadow on hover */
+    background-color: #625d7e;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* active effect */
 .toggle-button:active {
-    background-color: #4f4b66; /* even darker shade when pressed */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* reduced shadow to look "pressed in" */
+    background-color: #4f4b66;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
+
