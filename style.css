@@ -1,5 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/google-sans');
 
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2');
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +22,7 @@ body {
 }
 
 body {
-    font-family: 'Product Sans', 'Helvetica', sans-serif;
+    font-family: 'Helvetica Neue LT Pro', sans-serif;
     background-color: #f3f3f3;
     color: #333;
     line-height: 1.6;
