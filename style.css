@@ -207,3 +207,30 @@ iframe {
     /* makes the card "lift" on hover */
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
 }
+
+/* button styling */
+.toggle-button {
+    background-color: #7F77A7; /* Material You inspired purple */
+    color: white;
+    padding: 0.6em 1.2em;
+    border: none;
+    border-radius: 20px; /* rounded corners */
+    font-family: 'Product Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* soft shadow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* hover effect */
+.toggle-button:hover {
+    background-color: #625d7e; /* slightly darker shade on hover */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* deeper shadow on hover */
+}
+
+/* active effect */
+.toggle-button:active {
+    background-color: #4f4b66; /* even darker shade when pressed */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* reduced shadow to look "pressed in" */
+}
