@@ -110,8 +110,8 @@ h2, h3, p, footer {
     color: var(--text-color);
 }
 
-h2, h3, h4 {
-    font-weight: 750;
+header, h2, h3, h4 {
+    font-weight: 900;
 }
 
 .profile-pic {
